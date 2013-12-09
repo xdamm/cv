@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daniel Mendoza CV</title>
+    <meta name="description" content="Daniel Mendoza's CV" />
+    <meta name="keywords" content="html, css, php, html5, css3, cv" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+  </head>
+
+  <body>
+    <div id="main"><!-- Start main page container -->
+      <div id="header"><!-- Start header content -->
+        <div id="logo">
+          <div id="logo_text">
+            <!-- logo_colour to change color of the logo text -->
+            <h1><a href="index.html">Daniel Mendoza<span class="logo_colour">CV</span></a></h1>
+            <h2>.NET. PHP. Java. Android. iOS. HTML. CSS. Adobe CS.</h2>
+          </div>
+        </div>
+        <div id="menubar">
+          <ul id="menu">
+            <!-- selected, highlights current page -->
+            <li><a href="index.html">Home</a></li>
+            <li class="selected"><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Daniel Mendoza</a></li>
+          </ul>
+          <ul id="iconmenu">
+            <li>
+              <a href="https://github.com/xdamm/">
+                <img src="img/github.png" alt="Github icon." height="25" width="25"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/105827541268915578945/about">
+                <img src="img/googleplus.png" alt="Google plus icon." height="25" width="25"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/xdamm">
+                <img src="img/facebook.png" alt="Facebook icon." height="25" width="25"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div><!-- End header content -->
+      <div id="site_content"><!-- Start site content -->
+        <div id="content"><!-- Start content -->
+          <h1>Gallery</h1>
+          <h2>Project and hobbies gallery</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Test for gallery</p>
+        </div><!-- End main page content -->
+      </div><!-- end site content -->
+      <div id="footer"><!-- Start footer -->
+        Daniel Mendoza CV | Desarrollo rápido de sistemas | Tijuana B.C. 2013&copy</a>
+      </div><!-- End footer -->
+    </div><!-- End main page container -->
+  </body>
+</html>
