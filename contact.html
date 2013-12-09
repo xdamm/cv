@@ -74,12 +74,13 @@
         <div id="content"><!-- Start content -->
           <h1>Contact Daniel Mendoza</h1>
           <p>If you have any questions or inquiries, please use the form below to contact me:</p>
-          <form action="#" method="post">
+          <form action="mailer.php" method="post">
             <div class="form_settings">
-              <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
-              <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
-              <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
-              <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" /></p>
+              <p><span>Name</span><input class="contact" type="text" name="your_name" value="" size="50"/></p>
+              <p><span>Subject</span><input class="contact" type="text" name="your_subject" value="" size="254"/></p>
+              <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" size="254"/></p>
+              <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea></p>
+              <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="Send" /></p>
             </div>
           </form>
           <p><br /><br />NOTE: A contact form such as this would require some way of emailing the input to an email address.</p>
